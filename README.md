@@ -8,7 +8,8 @@
 ## 📂 知识库结构
 smart-cockpit-knowledge-base/
 ├── 📁 01-项目管理/ # 项目管理和学习进度跟踪
-│ └── PROJECT_MANAGEMENT.md
+│ 
+└── PROJECT_MANAGEMENT.md
 ├── 📁 02-技术笔记/ # 技术学习和问题解决记录
 │ ├── Android-Automotive-基础.md
 │ ├── 开源项目分析.md

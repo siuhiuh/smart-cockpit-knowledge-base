@@ -21,23 +21,52 @@
 - [ ] 配置git到自己的Android Studio
 
 #### ✅ 实际完成
-
-- [x]通过查询deep seek和csdn安装了最新版的Android Studio
-- [x] 安装git
+- [x] JDK环境配置
+- [x] 通过查询deep seek和csdn安装了最新版的Android Studio
+- [ ] 安装git
 
 
 #### 🔍 遇到的问题
-**问题**：JDK环境配置
-**解决**：无
-**收获**：Kotlin的简洁性确实提升开发效
+**问题**：JDK环境配置是否是Android Studio所必需的
+**解决**：询问deep seek寻求答案
+**收获**：JDK是Java语言的软件开发工具包，当使用Java环境运行时没有它android studio就无法将代码转化为可在设备上运行的程序
 
 #### 📚 学习收获
-- 理解了Android项目的基本架构
-- 掌握了RecyclerView的使用场景
-- 学会了如何阅读开源项目文档
+- 了解了如何手动将JDK配置到电脑高级配置中（path）
+- 用 `Java --version`在cmd中确认是否配置成功
+- 了解了JDK与Android Studio的关系
+- 学会了如何安装Android Studio
 
 #### 🎯 明日计划
-- [ ] 实现第一个界面修改
+None
+
+### 📝 2025-09-29 星期一
+#### 🎯 今日计划
+- [ ] Android Studio国内镜像设置
+- [ ] Android Studio新建车载项目Automotive模拟器
+
+#### ✅ 实际完成
+- [x] 成功Android Studio国内镜像设置
+- [x] 成功Android Studio新建车载项目Automotive模拟器
+
+
+#### 🔍 遇到的问题
+**问题**：国内镜像下载过程中下载失败，爆红
+**解决**：重新创建车载项目，提前把文件代码（与国内镜像适配的）修改好，重新下载尝试（最低成本方案）
+**收获**：文件代码一定要提前修改好再点击下载，否则容易报错
+
+**问题**：1024p镜像系统（最基础通用版）无法下载
+**解决**：检查SDK下载的level是否匹配-放弃死磕，绕过1024p下载1048p（同样好用）
+**收获**：不必死磕资源，放弃完美主义，主动寻求其他的具体解决方法，条条大路通罗马！
+
+#### 📚 学习收获
+- 了解了如何手动将JDK配置到电脑高级配置中（path）
+- 用 `Java --version`在cmd中确认是否配置成功
+- 了解了JDK与Android Studio的关系
+- 学会了如何安装Android Studio
+
+#### 🎯 明日计划
+- [ ] 安装git
 - [ ] 学习MVVM架构模式
 - [ ] 整理技术问题清单
 

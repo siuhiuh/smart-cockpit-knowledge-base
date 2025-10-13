@@ -14,24 +14,41 @@
 
 ## 🔧 详细步骤记录
 
-### 阶段一：开发环境搭建
 
-#### 1. Android Studio 安装    
-**日期**：2025-9-25
-**目标**：安装Android studio并配置好所需的JDK
+#### 1. Clion 安装    
+**日期**：2025-10-13
+**目标**：在电脑中下载Clion安装到D盘
 **步骤**：
-- 在CSDN博客上搜索“如何安装Android studio”[感谢该博主的贡献](https://blog.csdn.net/2301_80035882/article/details/142249097?spm=1001.2014.3001.5506)
-- 依据博客内容提前在D盘中做好文件夹分类
-- 下载最新版JDK[下载网址](https://www.oracle.com/)
-- 在电脑属性中的path（路径）添加下载JDK文件路径（新建命名JAVA-HOME）
-- 在命令指示符中确认是否下载好JDK
-- 下载 Android Studio 最新[下载网址](https://developer.android.google.cn/studio?hl=en)
-- 点开下好的exe安装包,按步骤点击选项,切换下载路径,最终"Finish"完成下载
-- 配置 Android Automotive OS SDK
-- 创建 Automotive 模拟器（1408p landscape）
-- 验证开发环境正常运行
+- 在CSDN搜索Clion下载，你就会得到[Clion各版本安装包的网站：](https://www.jetbrains.com/clion/download/other.html)
+- 避免最新版本容易出Bug，我下载了24版本的Clion
+- windows系统，所以直接下载win-exe.
+- 点开下好的程序安装包，选择D盘，勾选桌面快捷方式，进行安装
+- 安装完成后重启电脑
 
 **遇到的问题与解决与最终结果**：
-- 安装android studio必须要先安装JDK吗?→ 询问deep seek→ 是的,因为android studio核心逻辑是用Java/Kotlin语言来编写的,而JDK是Java语言的软件开发工具包,包含了编译代码所必需的工具（比如javac编译器）和运行这些程序所依赖的库（Java运行时环境）,没有它android studio就无法将代码转化为可在设备上运行的程序
-- 性能优化：调整模拟器内存配置（不占用C盘内存）
+None
 
+#### 2. Clion基础环境配置     
+**日期**：2025-10-13
+**目标**：建立第一个C语言项目
+**步骤**：
+- 24版可自动设置汉化，因此这里就不用再下汉语插件
+- 点击激活（30天试用期）
+- 点击创建新项目，选择自己喜欢的背景环境设置
+- 按b站老师的教学视频,学习C语言创建`C 可执行文件`[感谢老师的视频合集](https://www.bilibili.com/video/BV1Cr4y137os?vd_source=44ce6aad417cb83ebc77bb8fcb87d089)
+- 验证是否创建成功：点开项目后会看到一个main.c文件，点击绿色小三角可以run起来，会在底下的终端快速闪过‘Hello world！’，即成功
+
+**遇到的问题与解决与最终结果**：
+None
+
+#### 3. 建立便携的远程代码仓库     
+**日期**：2025-10-13
+**目标**：Clion和Github之间建立远程代码仓库
+**步骤**：
+- Git配置（前提是电脑有git且已有自己的账号）：点击提交或快捷键`ctrl+k`，绑定Git（我把git配置在了项目文档中），即可把代码传给git
+- GitHub仓库：点击顶部菜单栏的git，选择GitHub，再自己设置仓库名，即可上传并建立仓库
+- 验证：在浏览器搜索[自己的仓库](https://github.com/siuhiuh/C-clion-program),看是否成功建立且上传
+- 按b站老师的教学视频,学习C语言创建`C 可执行文件`[感谢老师的视频合集](https://www.bilibili.com/video/BV1Cr4y137os?vd_source=44ce6aad417cb83ebc77bb8fcb87d089)
+
+**遇到的问题与解决与最终结果**：
+None
